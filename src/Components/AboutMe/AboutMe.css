@@ -1,0 +1,35 @@
+.aboutmecontainer{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: nowrap;
+}
+.aboutmeimg{
+    background-color: red;
+}
+.aboutmeimg img{
+    width: 300px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.aboutmeinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.aboutmeinfo h1{
+  text-decoration: underline;
+}
+.aboutmeinfo p{
+    font-size: 25px;
+}
+.aboutmeinfo button{
+    background-color: #4CAF50;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}

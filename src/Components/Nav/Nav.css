@@ -1,0 +1,10 @@
+.navlogo{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 60%;
+    margin: 5px;
+}
+.navlogo:nth-child(2){
+    min-height: 50px;
+    min-width: 50px;
+}

@@ -1,0 +1,38 @@
+.conatactcontainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /* background-color: blue; */
+}
+.conatactcontainer h2{
+    text-decoration: underline;
+    /* background-color: red; */
+    flex-basis: 100vw;
+    text-align: center;
+   
+}
+.contactimg{
+  /* background-color: aqua; */
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.contactinfo{
+    /* background-color: bisque; */
+    flex-grow: 1;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.contactlogo{
+    padding: 10px;
+    margin: 10px;
+}
+.contactlogo img{
+    margin: 10px;
+}

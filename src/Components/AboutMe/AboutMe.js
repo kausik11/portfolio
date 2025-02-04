@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div className='aboutmecontainer'>
         <div className='aboutmeimg'>
-            <img src={me}></img>
+            <img src={me} alt='img'></img>
         </div>
 
         <div className='aboutmeinfo'>
@@ -16,7 +16,7 @@ const AboutMe = () => {
       <h3>DOB: <span>30/07/1998</span></h3>
       <h3>Experience: <span>IT ASSOCIATE AT THEISM GROUP</span></h3>
       <h3>Interest: <span>Development</span></h3>
-      <a href='/Kausik_Saha.pdf' target='_blank'><button>Download CV</button></a>
+      <a href='/Kausik_Saha.pdf' target='_blank' rel="noreferrer"><button>Download CV</button></a>
       </div>
     
     </div>

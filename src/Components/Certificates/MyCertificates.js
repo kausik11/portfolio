@@ -53,22 +53,22 @@ const MyCertificates = () => {
       <h2>Certificates</h2>
       <Slider {...settings} className='sldd'>
         <div>
-          <img src={flstck}></img>
+          <img src={flstck} alt='img'></img>
         </div>
         <div>
-        <img src={csscertificate}></img>
+        <img src={csscertificate} alt='img'></img>
         </div>
         <div>
-        <img src={digitalmark}></img>
+        <img src={digitalmark} alt='img'></img>
         </div>
         <div>
-        <img src={tcsion}></img>
+        <img src={tcsion} alt='img'></img>
         </div>
         <div>
-        <img src={postmancer}></img>
+        <img src={postmancer} alt='img'></img>
         </div>
         <div>
-        <img src={gitcertificate}></img>
+        <img src={gitcertificate} alt='img'></img>
         </div>
       </Slider>
     </div>

@@ -85,7 +85,7 @@ const handleDrawerToggle = () => {
           <Box sx={{ display: { xs: 'none', sm: 'block' }}}>
            <IconButton>
             {navItems.map((item)=>(
-              <a href='mailto:kkausik11@gmail.com' target='_blank'><img alt='logo' src={item} className='navlogo'></img></a>
+              <a href='mailto:kkausik11@gmail.com' target='_blank' rel="noreferrer"><img alt='logo' src={item} className='navlogo'></img></a>
             ))}
            </IconButton>
           </Box>

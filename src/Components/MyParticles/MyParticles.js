@@ -35,7 +35,7 @@ const particlesLoaded = (container) => {
         fullScreen:{enable:false},
           background: {
               color: {
-                  value: "#323b4c",
+                  value: "#12384d",
               },
           },
           fpsLimit: 120,

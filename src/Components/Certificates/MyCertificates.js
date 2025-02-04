@@ -2,6 +2,14 @@ import React from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
+import './MyCertificates.css'
+import csscertificate from '../../image/certificates/css certificate_page-0001.jpg'
+import digitalmark from '../../image/certificates/digital marketing_page-0001.jpg'
+import tcsion from '../../image/certificates/Kausik_Saha_3827560_page-0001.jpg'
+import flstck from '../../image/certificates/FullStackCertificate_page-0001.jpg'
+import postmancer from '../../image/certificates/PostMan_API_Fundamental_page-0001.jpg'
+import gitcertificate from '../../image/certificates/Git and GitHub BootCamp_page-0001.jpg'
+
 
 
 // function SampleNextArrow(props) {
@@ -41,23 +49,26 @@ const MyCertificates = () => {
       };
 
   return (
-    <div className="slider-container" style={{marginBottom:"30px"}}>
+    <div className="slider-container">
       <h2>Certificates</h2>
-      <Slider {...settings}>
+      <Slider {...settings} className='sldd'>
         <div>
-          <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrBwARZpC1OVgQCHh9JbNmL52o4rWFjVwlEw&s'></img>
+          <img src={flstck}></img>
         </div>
         <div>
-        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrBwARZpC1OVgQCHh9JbNmL52o4rWFjVwlEw&s'></img>
+        <img src={csscertificate}></img>
         </div>
         <div>
-        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrBwARZpC1OVgQCHh9JbNmL52o4rWFjVwlEw&s'></img>
+        <img src={digitalmark}></img>
         </div>
         <div>
-        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrBwARZpC1OVgQCHh9JbNmL52o4rWFjVwlEw&s'></img>
+        <img src={tcsion}></img>
         </div>
         <div>
-        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrBwARZpC1OVgQCHh9JbNmL52o4rWFjVwlEw&s'></img>
+        <img src={postmancer}></img>
+        </div>
+        <div>
+        <img src={gitcertificate}></img>
         </div>
       </Slider>
     </div>

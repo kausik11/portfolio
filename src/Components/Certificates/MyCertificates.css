@@ -1,0 +1,23 @@
+.slider-container{
+    background-color: #205b7b;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    height: 400px;
+}
+.slider-container h2{
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #82c988;
+    text-align: center;
+}
+.slider-container .sldd{
+   padding: 10px;
+}
+.slider-container .sldd img{
+    border-radius: 10px;
+    min-height: 250px;
+    max-height: 260px;
+    border: 5px solid #82c988;
+    padding: 5px;
+}

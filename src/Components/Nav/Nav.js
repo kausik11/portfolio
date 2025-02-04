@@ -64,7 +64,7 @@ const handleDrawerToggle = () => {
   return (
     <Box sx={{ display: 'flex',maxWidth:"100vw"}}>
       <CssBaseline />
-      <AppBar component="nav" sx={{ backgroundColor: '#323b4c', maxWidth:"100vw"}}>
+      <AppBar component="nav" sx={{ backgroundColor: '#205b7b', maxWidth:"100vw"}}>
         <Toolbar>
           <IconButton
             color="inherit"
@@ -76,21 +76,16 @@ const handleDrawerToggle = () => {
             <MenuIcon />
           </IconButton>
           <Typography
-            variant="h6"
+            variant="h4"
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            KS Portfolio.
+            KS <span style={{color:"#82c988",fontWeight:"400"}}>Portfolio.</span>
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' }}}>
-            {/* {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
-                {item}
-              </Button>
-            ))} */}
            <IconButton>
             {navItems.map((item)=>(
-              <img alt='logo' src={item} className='navlogo'></img>
+              <a href='mailto:kkausik11@gmail.com' target='_blank'><img alt='logo' src={item} className='navlogo'></img></a>
             ))}
            </IconButton>
           </Box>

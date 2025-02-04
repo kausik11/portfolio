@@ -20,7 +20,6 @@ function App() {
       <MyExperties/>
       <hr/>
       <AboutMe/>
-      <hr/>
       <MyCertificates/>
       <hr/>
       <MyProjects/>

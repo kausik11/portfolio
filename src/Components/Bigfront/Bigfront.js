@@ -6,9 +6,10 @@ const Bigfront = () => {
   useEffect(() => {
     const typedOptions = {
       strings: [
-        'Web developer',
-        'Front end developer',
-        'MCA Student',
+        'Web developer 🔥',
+        'Front end developer 💥',
+        'MCA Student 📗',
+        "React Developer ⚛️"
       ],
       typeSpeed: 50,
       backSpeed: 50,
@@ -26,8 +27,8 @@ const Bigfront = () => {
 
   return (
     <div className='bigfront'>
-      <h1>Hello!👋  I'm</h1>
-      <h3>Kausik Saha</h3>
+      <h3>Hello!👋  I'm</h3>
+      <h2>Kausik Saha</h2>
       <div className='type-container'>
         <h1>
           And I'm a <span className='typed-output'></span>

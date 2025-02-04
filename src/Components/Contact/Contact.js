@@ -10,7 +10,7 @@ const Contact = () => {
      <div className='conatactcontainer'>
     <h2>Contact Me</h2>
     <div className='contactimg'>
-      <img src='https://www.birlatrimaya.ind.in/wp-content/uploads/2023/07/Birla-Trimaya-Location.png'></img>
+      <img src='https://www.birlatrimaya.ind.in/wp-content/uploads/2023/07/Birla-Trimaya-Location.png' alt='img'></img>
     </div>
 
     <div className='contactinfo'>
@@ -20,10 +20,10 @@ const Contact = () => {
         <button>Visit on Google Map</button>
       </div>
       <div className='contactlogo'>
-      <a href='https://github.com/kausik11'><img src={git} style={{width:"50px"}}></img></a>
-      <a href='https://mail.google.com/mail/?view=cm&fs=1&to=kkausik11@gmail.com' target='_blank'><img src={gmail} style={{width:"50px"}}></img></a>
-     <a href='www.linkedin.com/in/kausik-saha-fsd'><img src={linkedin} style={{width:"50px"}}></img></a> 
-      <img src={facebook} style={{width:"50px"}}></img>
+      <a href='https://github.com/kausik11'><img src={git} style={{width:"50px"}} alt='img'></img></a>
+      <a href='https://mail.google.com/mail/?view=cm&fs=1&to=kkausik11@gmail.com'><img src={gmail} style={{width:"50px"}}alt='img'></img></a>
+     <a href='www.linkedin.com/in/kausik-saha-fsd'><img src={linkedin} style={{width:"50px"}} alt='img'></img></a> 
+      <img src={facebook} style={{width:"50px"}} alt='img'></img>
       </div>
     </div>
     </div>
